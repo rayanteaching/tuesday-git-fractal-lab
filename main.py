@@ -34,7 +34,8 @@ pen.setheading(90)
 pen.pendown()
 branch(110)
 
-# Add decorations here in feature/decor
+from decor import decorate
+decorate(screen, pen, tips)
 
 screen.update()
 screen.mainloop()
